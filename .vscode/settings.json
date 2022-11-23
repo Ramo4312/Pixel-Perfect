@@ -29,7 +29,7 @@
 	"editor.codeActionsOnSave": {},
 	"explorer.confirmDelete": false,
 	"editor.formatOnSave": true,
-	"files.autoSave": "afterDelay",
+	"files.autoSave": "off",
 	"workbench.iconTheme": "material-icon-theme",
 	"RainbowBrackets.depreciation-notice": true,
 	"workbench.colorTheme": "Bearded Theme Black & Ruby",
