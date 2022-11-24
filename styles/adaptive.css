@@ -1,123 +1,3 @@
-/* @media all and (min-width: 1500px) {
-  nav {
-    width: 1500px;
-  }
-
-  footer {
-    width: 1500px;
-  }
-}
-
-@media all and (min-width: 1501px) {
-  nav {
-    width: 1503px;
-  }
-
-  footer {
-    width: 1503px;
-  }
-}
-
-@media all and (min-width: 1504px) {
-  nav {
-    width: 1505px;
-  }
-
-  footer {
-    width: 1505px;
-  }
-}
-
-@media all and (min-width: 1505px) {
-  nav {
-    width: 1507px;
-  }
-
-  footer {
-    width: 1507px;
-  }
-}
-
-@media all and (min-width: 1508px) {
-  nav {
-    width: 1509px;
-  }
-
-  footer {
-    width: 1509px;
-  }
-}
-
-@media all and (min-width: 1509px) {
-  nav {
-    width: 1511px;
-  }
-
-  footer {
-    width: 1511px;
-  }
-}
-
-@media all and (min-width: 1511px) {
-  nav {
-    width: 1512px;
-  }
-
-  footer {
-    width: 1512px;
-  }
-}
-
-@media all and (min-width: 1512px) {
-  nav {
-    width: 1513px;
-  }
-
-  footer {
-    width: 1513px;
-  }
-}
-
-@media all and (min-width: 1513px) {
-  nav {
-    width: 1514px;
-  }
-
-  footer {
-    width: 1514px;
-  }
-}
-
-@media all and (min-width: 1514px) {
-  nav {
-    width: 1515px;
-  }
-
-  footer {
-    width: 1515px;
-  }
-}
-
-@media all and (min-width: 1516px) {
-  nav {
-    width: 1516px;
-  }
-
-  footer {
-    width: 1516px;
-  }
-}
-
-@media all and (min-width: 1517px) {
-  nav {
-    width: 1519px;
-  }
-
-  footer {
-    width: 1519px;
-  }
-} */
-
 @media all and (max-width: 1156px) {
   .portfolio_info-block1 {
     padding-top: 18vw;
@@ -148,7 +28,8 @@
   .aboutUs_info-block1,
   .aboutUs_info-block2,
   .aboutUs_info-block3 {
-    background-color: rgb(255, 255, 255, .4);
+    background-color: rgb(255, 255, 255, .6);
+    /* opacity: .6; */
     width: 57vw;
   }
 
@@ -260,6 +141,27 @@
     padding-bottom: 30px;
   }
 
+  .portfolio_image-title1 {
+    margin-top: 2vw;
+  }
+
+  .portfolio_image-title {
+    margin-top: 1vw;
+  }
+
+  .aboutUs-title {
+    font-size: 25px;
+    line-height: 5.3vw;
+  }
+
+  .aboutUs-desc {
+    font-size: 13px;
+  }
+
+  .br {
+    display: none;
+  }
+
   footer {
     padding: 55px 55px 25px;
   }
@@ -277,6 +179,10 @@
     margin-top: 11vw;
   }
 
+  .pagination-block>img {
+    width: 30px;
+  }
+
   .portfolio_info-block1 {
     padding-top: 32vw;
   }
@@ -286,7 +192,12 @@
   }
 
   .portfolio_parent-block {
-    margin-top: 60px;
+    margin: 60px auto;
+    width: 85vw;
+  }
+
+  .portfolio_parent-title>br {
+    display: none;
   }
 
   footer {
@@ -372,6 +283,10 @@
     line-height: 25px;
   }
 
+  .portfolio_image-title1>br {
+    display: none;
+  }
+
   .portfolio_info-block {
     padding-top: 16vw;
   }
@@ -396,17 +311,112 @@
     margin-top: 8vw;
   }
 
+  .pagination-block {
+    top: 17vw;
+  }
+
+  .carousel__left_block-title {
+    font-size: 24px;
+  }
+
+  .carousel__left_block-desc {
+    font-size: 11px;
+  }
+
+  .portfolio_parent-title {
+    font-size: 25px;
+  }
+
+  .portfolio_info-block {
+    padding-top: 12vw;
+  }
+
+  .portfolio_info-block1 {
+    padding-top: 30vw;
+  }
+
   .portfolio_image-title1 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 25px;
   }
 
+  .portfolio_image-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .aboutUs_child-block1,
+  .aboutUs_child-block2,
+  .aboutUs_child-block3 {
+    padding: 4vw 0;
+  }
+
+  .aboutUs_info-block1,
+  .aboutUs_info-block2,
+  .aboutUs_info-block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 77vw;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 501px) {
+
+  .carousel_left-block {
+    margin: 7vw 0 3vw 10vw;
+    width: 32vw;
+  }
+
+  .carousel__left_block-desc {
+    width: 42vw;
+  }
+
+  .carousel_right-block {
+    margin-left: 8vw;
+  }
+
+  .info_parent-block {
+    flex-direction: column;
+  }
+
+  .info-block {
+    width: 80vw;
+    height: 90px;
+    margin-bottom: 20px;
+  }
+
+  .info_block-title {
+    font-size: 17px;
+  }
+
+  .info_block-desc {
+    font-size: 14px;
+  }
+
+  .portfolio_parent-block {
+    margin: 25px auto;
+  }
 }
 
 @media all and (max-width: 471px) {
   .nav_right-block {
     margin-left: 32vw;
   }
+
+  .portfolio_info-block1 {
+    padding-top: 30vw;
+  }
+
+  .aboutUs-title {
+    line-height: 5.5vw;
+  }
+
+  .aboutUs-desc {
+    width: 62vw;
+  }
+
 }
 
 
