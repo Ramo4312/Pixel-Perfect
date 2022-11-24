@@ -2,40 +2,6 @@
 
 /* global styles start  */
 
-/* ::-webkit-scrollbar {
-  background-color: transparent;
-  display: none;
-}
-
-::-webkit-scrollbar-button {
-  display: none;
-}
-
-::-webkit-scrollbar-track {
-  display: none;
-}
-
-::-webkit-scrollbar-track-piece {
-  display: none;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-corner {
-  display: none;
-}
-
-::-webkit-resizer {
-  display: none;
-} */
-
-
 * {
   padding: 0;
   margin: 0;
@@ -45,28 +11,12 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* 
-body {
-  width: 1366px;
-} */
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-}
-
-input:focus {
-  outline: none !important;
-  outline-offset: none !important;
-}
-
 /* global styles end */
 
 /* navbar styles start */
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 64px;
   display: flex;
   flex-direction: row;
@@ -154,7 +104,6 @@ nav {
 .navbar__btn_burger {
   display: none;
   position: relative;
-  /* background: url(../images/navbar-btn.png) no-repeat; */
 }
 
 .checkbox {
@@ -235,11 +184,11 @@ input[type="checkbox"]:checked~.burger-menu {
 
 .carousel {
   background: url(../images/Rectangle\ 138.jpg) no-repeat 0% 100%;
+  background-size: 100%;
   position: relative;
   width: 100%;
   height: 41.6vw;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .pagination-block {
@@ -257,7 +206,6 @@ input[type="checkbox"]:checked~.burger-menu {
   width: 25.1vw;
   margin-left: 12.2vw;
   margin-top: 16.6vw;
-  /* margin-bottom: 165px; */
 }
 
 .carousel__left_block-title {
@@ -291,6 +239,10 @@ input[type="checkbox"]:checked~.burger-menu {
   transition: .4s;
 }
 
+.pagination-block>img {
+  cursor: pointer;
+}
+
 .pagination-block>img:last-child {
   rotate: 180deg;
 }
@@ -298,9 +250,7 @@ input[type="checkbox"]:checked~.burger-menu {
 .carousel_right-block {
   margin-left: 6.4vw;
   width: 47vw;
-  /* height: 52.5vh; */
   background: url(../images/Group\ 1223.png) no-repeat 90% 99% content-box;
-  /* background-position-y: 99%; */
   background-size: 100.5%;
 }
 
@@ -321,7 +271,7 @@ input[type="checkbox"]:checked~.burger-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto 79px;
+  margin: 0 auto 80px;
 }
 
 /* info block styles start */
@@ -333,7 +283,6 @@ input[type="checkbox"]:checked~.burger-menu {
   width: 100%;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .info-block {
@@ -371,21 +320,21 @@ input[type="checkbox"]:checked~.burger-menu {
 
 
 .info-block3:hover {
-  background: linear-gradient(270deg, rgba(110, 110, 110, 0.713) 5.1%,
+  background: linear-gradient(270deg, rgba(110, 110, 110, .3) 10%,
       rgb(255, 235, 202) 100%), url(../images/Tick\ Square.jpg) no-repeat;
   transition: .4s;
   background-position: 100%;
 }
 
 .info-block2:hover {
-  background: linear-gradient(270deg, rgba(110, 110, 110, 0.713) 5.1%,
+  background: linear-gradient(270deg, rgba(110, 110, 110, .3) 10%,
       rgb(255, 235, 202) 100%), url(../images/Setting.jpg) no-repeat;
   transition: .4s;
   background-position: 100%;
 }
 
 .info-block1:hover {
-  background: linear-gradient(270deg, rgba(110, 110, 110, 0.713) 5.1%,
+  background: linear-gradient(270deg, rgba(110, 110, 110, .3) 10%,
       rgb(255, 235, 202) 100%), url(../images/Work.jpg) no-repeat;
   transition: .4s;
   background-position: 100%;
@@ -420,7 +369,7 @@ input[type="checkbox"]:checked~.burger-menu {
 }
 
 .portfolio_child-block {
-  /* width: 63.5vw; */
+  width: 85.5vw;
   display: flex;
   flex-direction: row;
   margin-top: 1.8vw;
@@ -428,7 +377,6 @@ input[type="checkbox"]:checked~.burger-menu {
 }
 
 .portfolio__child_right-block {
-  width: 60%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -436,43 +384,55 @@ input[type="checkbox"]:checked~.burger-menu {
 }
 
 .portfolio_image-block1 {
-  position: relative;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5.1%,
-      rgba(0, 0, 0, 0.72) 100%), url(../images/Rectangle184.png);
+  background: url(../images/Rectangle184.jpg) no-repeat;
   background-position-x: 50%;
-  background-position-y: -10%;
-  width: 568px;
-  height: 383px;
+  background-position-y: 10%;
+  width: 41.6vw;
+  height: 28vw;
+  background-size: 100% 100%;
 }
 
 .portfolio_image-block2 {
-  position: relative;
   width: 19.6vw;
-  height: 181px;
-  background: url(../images/Rectangle185.png) no-repeat;
+  height: 13.2vw;
+  background: url(../images/Rectangle185.jpg) no-repeat;
+  background-position-x: 100%;
+  background-position-y: 30%;
+  background-size: 100% 100%;
 }
 
 .portfolio_image-block3 {
-  position: relative;
   width: 19.6vw;
-  height: 181px;
-  background: url(../images/Rectangle187.png) no-repeat;
+  height: 13.2vw;
+  background: url(../images/Rectangle187.jpg) no-repeat;
+  background-position-x: 100%;
+  background-position-y: 30%;
+  background-size: 100% 100%;
 }
 
 .portfolio_image-block4 {
-  position: relative;
   margin-top: 1.5vw;
   width: 19.6vw;
-  height: 181px;
-  background: url(../images/Rectangle186.png) no-repeat;
+  height: 13.2vw;
+  background: url(../images/Rectangle186.jpg) no-repeat;
+  background-position-x: 100%;
+  background-position-y: 30%;
+  background-size: 100% 100%;
 }
 
 .portfolio_image-block5 {
-  position: relative;
   margin-top: 1.5vw;
   width: 19.6vw;
-  height: 181px;
-  background: url(../images/Rectangle188.png) no-repeat;
+  height: 13.2vw;
+  background: url(../images/Rectangle188.jpg) no-repeat;
+  background-position-x: 100%;
+  background-position-y: 30%;
+  background-size: 100% 100%;
+}
+
+.portfolio_info-block1 {
+  padding-top: 20.8vw;
+  margin-left: 1.7vw;
 }
 
 .portfolio_image-data1 {
@@ -484,9 +444,14 @@ input[type="checkbox"]:checked~.burger-menu {
 
 .portfolio_image-title1 {
   font-size: 20.5px;
-  font-weight: 500;
-  line-height: 25px;
+  font-weight: 400;
+  line-height: 24px;
   color: #fff;
+}
+
+.portfolio_info-block {
+  padding-top: 8.4vw;
+  margin-left: .7vw;
 }
 
 .portfolio_image-data {
@@ -496,21 +461,11 @@ input[type="checkbox"]:checked~.burger-menu {
   color: #fff;
 }
 
-.portfolio_info-block1 {
-  padding-top: 285px;
-  margin-left: 23px;
-}
-
 .portfolio_image-title {
-  font-size: 13.1px;
+  font-size: .815em;
   font-weight: 550;
   line-height: 1.3vw;
   color: #fff;
-}
-
-.portfolio_info-block {
-  padding-top: 115px;
-  margin-left: 10.5px;
 }
 
 /* portfolio block styles end  */
@@ -518,59 +473,59 @@ input[type="checkbox"]:checked~.burger-menu {
 /* about us styles start  */
 
 .aboutUs-block {
-  margin-top: 5.2vw;
+  margin-top: 5.3vw;
 }
 
 .aboutUs-block>div {
-  width: 1168px;
-  height: 480px;
+  width: 85.5vw;
 }
 
 .aboutUs_child-block1 {
   background: url(../images/Rectangle\ 213.png) no-repeat;
-  margin-bottom: 48px;
-  padding-top: 57px;
-  padding-left: 564px;
+  margin-bottom: 18px;
+  padding-top: 4.2vw;
+  padding-left: 41.3vw;
+  padding-bottom: 5vw;
 }
 
 .aboutUs_child-block2 {
   background: url(../images/Rectangle\ 214.png) no-repeat;
   background-position: 100%;
-  margin-bottom: 48px;
-  padding-top: 48px;
-  padding-left: 64px;
+  margin-bottom: 28px;
+  padding-top: 4.9vw;
+  padding-left: 4.7vw;
+  padding-bottom: 5vw;
 }
 
 .aboutUs_child-block3 {
   background: url(../images/Rectangle\ 215.png) no-repeat;
-  padding-top: 47px;
-  padding-left: 584px;
+  padding-top: 3.5vw;
+  padding-left: 42.7vw;
+  padding-bottom: 5vw;
 }
 
 .aboutUs_info-block2 {
   background-color: white;
-  width: 540px;
-  height: 384px;
-  padding: 48px 48px 58px 48px;
+  width: 39.55vw;
+  padding: 3.5vw 3.5vw 4.2vw;
 }
 
 .aboutUs_info-block3,
 .aboutUs_info-block1 {
   background-color: white;
-  width: 540px;
-  height: 365px;
-  padding: 48px 48px 73px 48px;
+  width: 39.55vw;
+  padding: 3.5vw 3.5vw 5.3vw;
 }
 
 .aboutUs-title {
   font-size: 28px;
   font-weight: 700;
-  line-height: 33.9px;
+  line-height: 2.5vw;
   color: #181818;
 }
 
 .aboutUs-desc {
-  width: 444px;
+  width: 35vw;
   margin-top: 10px;
   font-size: 14px;
   font-weight: 400;
@@ -598,13 +553,12 @@ input[type="checkbox"]:checked~.burger-menu {
 .br {
   color: transparent;
   width: 50px;
-  /* display: inline-block; */
 }
 
 /* footer styles start  */
 
 footer {
-  width: 100vw;
+  width: 100%;
   background: #181818;
   padding: 56px 99px 25px 98px;
   display: flex;
@@ -626,10 +580,8 @@ footer {
 }
 
 .child-block_footer1 {
-  /* width: 80vw; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
 }
 
 .footer-list1 {
@@ -638,18 +590,19 @@ footer {
 }
 
 .footer-list_item1 {
+  cursor: pointer;
   width: 168px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 19px;
+  margin-top: 18.6px;
 }
 
 .footer-list_item1>p {
   color: #fff;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 15px;
 }
 
@@ -659,6 +612,7 @@ footer {
 }
 
 .footer-list_item2 {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -673,15 +627,15 @@ footer {
 }
 
 .footer-list_item2:nth-child(3) {
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 .footer-list_item2>p {
   margin-left: 10px;
   color: #fff;
+  font-weight: 1000;
   font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
+  line-height: 18.6px;
 }
 
 .facebook {
@@ -697,6 +651,7 @@ footer {
 }
 
 .footer-list_item3 {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -709,7 +664,6 @@ footer {
 
 .footer-list_item3>p {
   margin-left: 15px;
-  margin-top: 4px;
   color: #fff;
   font-size: 13px;
 }
@@ -743,7 +697,7 @@ footer {
 
 .map {
   width: 63.5vw;
-  height: 31.7vh;
+  height: 341px;
   margin-bottom: 4.5px;
   margin-left: 5vw;
 }
