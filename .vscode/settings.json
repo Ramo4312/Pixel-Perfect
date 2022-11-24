@@ -51,9 +51,10 @@
 	},
 	"indentRainbow.colors": [
 		"rgb(173, 218, 170)",
-		"rgb(3, 70, 255)",
 		"rgb(235, 221, 35)",
-		"rgb(243, 55, 55)"
+		"rgb(243, 55, 55)",
+		"rgb(3, 70, 255)",
+		"rgb(0, 255, 255)"
 	],
 	"indentRainbow.indicatorStyle": "light",
 	"indentRainbow.lightIndicatorStyleLineWidth": 1.5,
@@ -75,7 +76,7 @@
 	"terminal.integrated.altClickMovesCursor": true,
 	"files.exclude": {
 		"**/node_modules": true,
-		"**/.gitignore": false,
+		"**/.gitignore": true,
 		"**/package-lock.json": true,
 		"**/README.md": true,
 		"**/desktop.ini": true
