@@ -75,7 +75,7 @@
 	"terminal.integrated.altClickMovesCursor": true,
 	"files.exclude": {
 		"**/node_modules": true,
-		"**/.gitignore": true,
+		"**/.gitignore": false,
 		"**/package-lock.json": true,
 		"**/README.md": true,
 		"**/desktop.ini": true
