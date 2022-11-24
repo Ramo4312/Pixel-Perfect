@@ -286,9 +286,9 @@ input[type="checkbox"]:checked~.burger-menu {
 }
 
 .info-block {
+  cursor: default;
   padding-left: 16px;
   padding-top: 16px;
-  background: #f8f8f8;
   border-left: 5px solid #EBEBEB;
   width: 26.9vw;
   height: 130px;
@@ -301,19 +301,19 @@ input[type="checkbox"]:checked~.burger-menu {
 }
 
 .info-block1 {
-  background: url(../images/Work.jpg) no-repeat;
+  background: #f8f0 url(../images/Work.jpg) no-repeat;
   background-position: 100%;
   margin-right: 2.4vw;
 }
 
 .info-block2 {
-  background: url(../images/Setting.jpg) no-repeat;
+  background: #f8f0 url(../images/Setting.jpg) no-repeat;
   background-position: 100%;
   margin-right: 2.4vw;
 }
 
 .info-block3 {
-  background: url(../images/Tick\ Square.jpg) no-repeat;
+  background: #f8f0 url(../images/Tick\ Square.jpg) no-repeat;
   background-position: 100%;
   margin-right: 0;
 }
