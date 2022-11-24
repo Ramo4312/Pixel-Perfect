@@ -270,6 +270,7 @@ input[type="checkbox"]:checked~.burger-menu {
 
 /* content styles end  */
 
+
 .container {
   width: 85.5vw;
   display: flex;
