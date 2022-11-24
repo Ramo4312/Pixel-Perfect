@@ -247,6 +247,10 @@ input[type="checkbox"]:checked~.burger-menu {
   rotate: 180deg;
 }
 
+.radio-group {
+  left: 44%;
+}
+
 .carousel_right-block {
   margin-left: 6.4vw;
   width: 47vw;

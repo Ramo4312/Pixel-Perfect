@@ -1,4 +1,9 @@
 @media all and (max-width: 1156px) {
+
+  .radio-group {
+    left: 44%;
+  }
+
   .portfolio_info-block1 {
     padding-top: 18vw;
   }
@@ -9,6 +14,10 @@
 }
 
 @media all and (max-width: 1041px) {
+
+  .radio-group {
+    left: 42%;
+  }
 
   .portfolio_image-title1 {
     font-size: 18px;
@@ -23,6 +32,10 @@
 
   .carousel_left-block {
     margin-top: 14vw;
+  }
+
+  .radio-group {
+    left: 40%;
   }
 
   .aboutUs_info-block1,
@@ -126,6 +139,10 @@
     width: 28vw;
   }
 
+  .radio-group {
+    left: 40%;
+  }
+
   .info_block-desc {
     font-size: 11px;
   }
@@ -181,6 +198,10 @@
 
   .pagination-block>img {
     width: 30px;
+  }
+
+  .radio-group {
+    left: 37%;
   }
 
   .portfolio_info-block1 {
@@ -274,6 +295,10 @@
     margin-top: 18px;
   }
 
+  .radio-group {
+    left: 36%;
+  }
+
   .portfolio_info-block1 {
     padding-top: 32vw;
   }
@@ -321,6 +346,10 @@
 
   .carousel__left_block-desc {
     font-size: 11px;
+  }
+
+  .radio-group {
+    left: 35%;
   }
 
   .portfolio_parent-title {
@@ -377,6 +406,10 @@
     margin-left: 8vw;
   }
 
+  .radio-group {
+    left: 34%;
+  }
+
   .info_parent-block {
     flex-direction: column;
   }
@@ -405,8 +438,30 @@
     margin-left: 32vw;
   }
 
+  .pagination-block {
+    display: none;
+  }
+
+  .carousel__left_block-desc {
+    width: 47vw;
+    line-height: 15px;
+  }
+
+  .carousel__left_block-btn {
+    margin-top: 10px;
+    width: 35vw;
+  }
+
+  .radio-group {
+    left: 33%;
+  }
+
   .portfolio_info-block1 {
-    padding-top: 30vw;
+    padding-top: 27vw;
+  }
+
+  .portfolio_info-block {
+    padding-top: 10vw;
   }
 
   .aboutUs-title {
@@ -419,10 +474,58 @@
 
 }
 
+@media all and (max-width: 416px) {
+
+  .radio-group {
+    left: 31%;
+  }
+
+  .aboutUs-desc {
+    width: 67vw;
+  }
+}
+
 
 @media all and (max-width: 401px) {
   .nav_right-block {
     margin-left: 28vw;
+  }
+
+  .carousel_left-block {
+    margin: 3vw 0 3vw 10vw;
+  }
+
+  .carousel__left_block-btn {
+    margin-top: 10px;
+    width: 35vw;
+  }
+
+  .radio-group {
+    left: 30%;
+  }
+
+  .portfolio_info-block1 {
+    padding-top: 23vw;
+  }
+
+  .portfolio_image-title1 {
+    font-size: 15px;
+  }
+
+  .portfolio_info-block {
+    padding-top: 13vw;
+  }
+
+  .portfolio_image-title {
+    font-size: 9.5px;
+  }
+
+  .aboutUs-title {
+    line-height: 6.5vw;
+  }
+
+  .detail-btn {
+    width: 100%;
   }
 
   .child-block_footer1 {
@@ -440,6 +543,27 @@
     margin-left: 20vw;
   }
 
+  .carousel_left-block {
+    margin: 0 0 3vw 3vw;
+  }
+
+  .carousel__left_block-btn {
+    margin-top: 5px;
+  }
+
+  .carousel_right-block {
+    margin-left: 9vw;
+    width: 55vw;
+  }
+
+  .radio-group {
+    left: 28%;
+  }
+
+  .aboutUs-title {
+    line-height: 7.5vw;
+  }
+
   .child-block_footer1 {
     width: 100vw;
     display: flex;
@@ -453,6 +577,10 @@
 
   .nav_right-block {
     margin-left: 15vw;
+  }
+
+  .radio-group {
+    left: 24%;
   }
 
   .child-block_footer1 {
