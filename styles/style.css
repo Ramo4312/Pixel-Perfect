@@ -117,15 +117,18 @@ nav {
 }
 
 .burger-menu {
-  display: none;
   width: 200px;
-  background-color: #b7b7b7;
+  height: 0;
+  overflow-y: hidden;
+  background-color: rgb(255, 255, 255, .4);
+  /* background: #000; */
+  backdrop-filter: blur(13px);
   position: absolute;
-  z-index: 1;
   border-radius: 15px;
+  z-index: 1;
   right: 0px;
   top: 30px;
-  transition: .9s;
+  transition: .5s;
 }
 
 .burger-menu__content {
@@ -168,14 +171,14 @@ nav {
 }
 
 .burger-menu__item:hover {
-  background-color: #181818;
+  background-color: rgb(24, 24, 24, .9);
   color: #b7b7b7;
   transition: .5s;
 }
 
 input[type="checkbox"]:checked~.burger-menu {
-  display: block;
-  transition: .9s;
+  height: 115px;
+  transition: .6s;
 }
 
 /* navbar styles end  */
